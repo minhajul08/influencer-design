@@ -57,6 +57,21 @@ li{
     padding: 10px 24px;
 }
 
+/* sponser section */
+.sponser{
+    background: #FFFFFF;
+    width: 70%;
+    height: 70px;
+    border-radius: 20px;
+    margin: auto;
+    border: 2px solid #f2f1f1;
+}
+
+.sponser-content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
 
 
 
@@ -81,6 +96,17 @@ li{
     .header-text-description{
         text-align: center;
     }
+    .sponser{
+        width: 0;
+        height: 0;
+    }
+    .sponser-content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        margin: 5px;
+    }
 }
 
 /* medium device */
@@ -98,5 +124,17 @@ li{
     }
     .header-img{
         width: 100%;
+    }
+    .sponser{
+        margin-top: 20px;
+        width: 80%;
+        height: 100px;
+    }
+    .sponser-content{
+        width: 45%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        margin: auto;
     }
 }
