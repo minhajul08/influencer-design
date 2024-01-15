@@ -126,7 +126,14 @@ li{
     letter-spacing: 0.252px;
 }
 
+.see{
+    width: 90%;
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
 
+}
 
 
 
