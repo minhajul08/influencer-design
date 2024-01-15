@@ -159,14 +159,14 @@ li{
 
 /* media queries */
 @media screen and (max-width:576px) {
-    header{
+    header,.featured{
         text-align: center;
         padding: 5px;
     }
     nav{
         flex-direction: column;
     }
-    .header-design{
+    .header-design, .featured{
         flex-direction: column-reverse;
     }
     .header-text-title{
